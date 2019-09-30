@@ -22,6 +22,7 @@
 5. 初始化mysql，并记住root用户初始化密码
 
    ```shell
+   yum install libaio
    bin/mysqld --initialize --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
    ```
 
