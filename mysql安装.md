@@ -75,6 +75,7 @@
     basedir=/usr/local/mysql
     datadir=/usr/local/mysql/data
     max_connections=1000
+    lower_case_table_names=1 ## 表名不区分大小写
     skip-grant-tables ## 免密登录
     ```
 
