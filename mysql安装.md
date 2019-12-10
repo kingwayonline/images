@@ -4,6 +4,11 @@
 
    ```shell
    tar -xvf xxx.tar.xz -C /usr/local/
+   # 删除mariadb
+   rpm -qa|grep mariadb  
+   yum remove mariadb
+   rm -rf /etc/my.cnf
+   rm -rf /etc/my.cnf.d
    ```
 
 3. 改名
