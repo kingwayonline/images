@@ -28,7 +28,7 @@
 
    ```shell
    yum install libaio
-   bin/mysqld --initialize --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
+   bin/mysqld --initialize --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data --lower-case-table-names=1
    ```
 
 6. mysql启动停止
