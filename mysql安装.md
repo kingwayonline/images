@@ -132,3 +132,7 @@
     -- Slave_IO_Running: Yes  必须是yes
     -- Slave_SQL_Running: Yes  必须是yes                           
     ```
+13. 安装mysql客户端
+    ```shell
+    yum install mysql  -y
+    ```
