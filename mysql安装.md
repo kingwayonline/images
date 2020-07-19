@@ -29,6 +29,7 @@
 
    ```shell
    yum install libaio
+   yum -y install numactl
    bin/mysqld --initialize --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data --lower-case-table-names=1
    ```
 
