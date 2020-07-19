@@ -6,6 +6,7 @@
    tar -xvf xxx.tar.xz -C /usr/local/
    # 删除mariadb
    rpm -qa|grep mariadb  
+   yum remove mysql mysql-server mysql-libs compat-mysql51
    yum remove mariadb
    rm -rf /etc/my.cnf
    rm -rf /etc/my.cnf.d
